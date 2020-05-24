@@ -14,7 +14,7 @@ int main()
     for (i=0;i<5;i++)
     printf ("%d\n",*(arr+i));
 
-    free(arr);
+    //free(arr);
 
     for (i=0;i<5;i++)
     printf ("\n%d",arr[i]);
